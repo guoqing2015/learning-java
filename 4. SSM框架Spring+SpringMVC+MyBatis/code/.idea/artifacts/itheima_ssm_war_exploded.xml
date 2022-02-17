@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="itheima_ssm:war exploded">
+    <output-path>$PROJECT_DIR$/17. itheima_ssm/target/itheima_ssm</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>itheima_ssm</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="itheima_ssm" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/17. itheima_ssm/target/itheima_ssm/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="itheima_ssm/web/Web" />
+    </root>
+  </artifact>
+</component>
